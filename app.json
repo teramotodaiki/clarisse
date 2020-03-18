@@ -1,0 +1,12 @@
+{
+  "name": "Clarisse",
+  "description": "Prevent teenage curiosity from being burned.",
+  "repository": "https://github.com/teramotodaiki/clarisse",
+  "keywords": ["Kagawa"],
+  "env": {
+    "IPINFODB_API_KEY": {
+      "description": "API Key generated at IPInfoDB.com",
+      "value": ""
+    }
+  }
+}
