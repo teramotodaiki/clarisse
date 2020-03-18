@@ -31,7 +31,7 @@
     app.appendChild(header);
 
     var text = document.createElement('p');
-    text.textContent = 'ゲームを制限する条例の対象外です。';
+    text.textContent = 'ネット・ゲームを制限する条例の対象外です。';
     app.appendChild(text);
 
     var actions = document.createElement('div');
