@@ -40,11 +40,7 @@ Deploy to Heroku をクリックして、 `IPINFODB_API_KEY` に API Key を設�
 
 - script タグで埋め込む場合（非推奨）
 
-要するに僕が仮で建てた Heroku app を利用する使い方です
-
-予算があればきちんと環境を作れるのですが、 IP Geolocation に無料垢を使っているので２秒に１リクエストしか捌けません
-
-アクセスが集中すると判定処理をスキップしますが、実験用にどうぞ
+要するに僕が仮で建てた Heroku app を利用する使い方ですが、IP Geolocation の無料垢を使っているので２秒に１リクエストしか捌けません。アクセスが集中すると判定処理をスキップします。実験用にどうぞ
 
 ```html
 <script async src="https://clarisse-451.herokuapp.com/index.js">
