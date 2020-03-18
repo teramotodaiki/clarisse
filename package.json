@@ -1,0 +1,26 @@
+{
+  "name": "clarisse",
+  "version": "1.0.0",
+  "description": "Prevent teenage curiosity from being burned.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teramotodaiki/clarisse.git"
+  },
+  "keywords": [
+    "kagawa"
+  ],
+  "author": "teramotodaiki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teramotodaiki/clarisse/issues"
+  },
+  "homepage": "https://github.com/teramotodaiki/clarisse#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}
