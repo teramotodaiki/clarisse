@@ -46,6 +46,16 @@ Deploy to Heroku をクリックして、 `IPINFODB_API_KEY` に API Key を設�
 <script async src="https://clarisse-451.herokuapp.com/index.js">
 ```
 
+- サンプル
+
+[static/index.html](static/index.html) を参考にしてください
+
+## Request params
+
+**debug** デバッグ用途で使用するフラグです。`0` または `false` 以外の文字列を指定すると、必ず UI を表示します
+
+- コード例： `<script async src="https://clarisse-451.herokuapp.com/index.js?debug=1">`
+
 ## How it works
 
 IP Geolocation とは、 IP アドレスがおよそ地域ごとに割り振られていることを利用して、 IP アドレスから地域を推測してやろうというものです
