@@ -23,7 +23,9 @@ app.get('/index.js', async (req, res) => {
 
     // IP Geocoding を実行
     if (isKagawa === undefined) {
-      isKagawa = await clarisse.detectKagawaFromIpAddress(req.ip);
+      const regionName = await clarisse.getRegionName(req.ip);
+      console.log('from', regionName);
+      isKagawa = regionName === 'Kagawa';
       resultMap.set(req.ip, isKagawa);
       lastRequest = Date.now();
     }
