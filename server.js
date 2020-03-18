@@ -16,6 +16,11 @@ app.get('/index.js', async (req, res) => {
   try {
     let isKagawa = resultMap.get(req.ip); // メモリキャッシュを利用
 
+    // debug フラグがあれば優先
+    if (req.query.debug) {
+      isKagawa = !(req.query.debug === '0' || req.query.debug === 'false');
+    }
+
     // 2requests/sec の制限に引っかかりそうな場合は false と判定
     if (isKagawa === undefined && lastRequest + 500 > Date.now()) {
       isKagawa = false;
