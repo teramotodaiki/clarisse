@@ -34,7 +34,7 @@ IP アドレスからおおよその地域を割り出し、香川県からア�
 
 Deploy to Heroku をクリックして、 `IPINFODB_API_KEY` に API Key を設定してください
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/teramotodaiki/clarisse/blob/master)
 
 あとは `/index.js` を script タグで読み込むだけです
 
