@@ -35,7 +35,7 @@ app.get('/index.js', async (req, res) => {
 
     if (isKagawa) {
       // 香川県からアクセスしている場合は js を読み込む
-      return res.redirect(301, '/static/kagawa.js');
+      return res.redirect(302, '/static/kagawa.js');
     }
   } catch (error) {
     console.error(error);
